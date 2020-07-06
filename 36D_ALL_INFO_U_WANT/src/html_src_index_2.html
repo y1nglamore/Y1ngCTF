@@ -1,0 +1,86 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Happy Rubic Cube</title>
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body{
+            margin-left:auto;
+            margin-right:auto;
+            margin-TOP:200PX;
+            /*width:20em;*/
+        }
+        .container {
+            width: 900px;
+            margin: 100px auto 0;
+        }
+        *{margin:0px; padding:0px;}
+        .botCenter{width:100%; height:35px; line-height:35px; background:#ffffff; position:fixed; bottom:0px; left:0px; font-size:14px; color:#000; text-align:center;}
+        .button {
+            display: inline-block;
+            border-radius: 4px;
+            background-color: #008CBA;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 20px;
+            padding: 20px;
+            width: 200px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        .button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        .button span:after {
+            content: '»';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+        .button:hover span {
+            padding-right: 25px;
+        }
+
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+        .button:hover {
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+
+    </style>
+</head>
+
+<body>
+<a href="https://gem-love.com/" target="_blank"><div class="botCenter">@颖奇L'Amore</div></a>
+<div class="container">
+    <center>
+        <h3>先来玩玩3d魔方吧</h3>
+        <h3> </h3>
+        <h3> </h3>
+        <h3> </h3>
+        <h3> </h3>
+        <h3> </h3>
+
+        <form action="" method="post" >
+            <input class="button button" style="vertical-align:middle" type="submit" value="start" name="rubic" />
+        </form>
+    </center>
+</div>
+<!-- find something by your scanner -->
+</body>
+</html>

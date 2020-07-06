@@ -1,0 +1,26 @@
+
+visit all_info_u_want.php and you will get all information you want
+
+= =Thinking that it may be difficult, i decided to show you the source code:
+
+
+<?php
+error_reporting(0);
+
+//give you all information you want
+if (isset($_GET['all_info_i_want'])) {
+    phpinfo();
+}
+
+if (isset($_GET['file'])) {
+
+    $file = "/var/www/html/" . $_GET['file'];
+    //really baby include
+    include($file);
+}
+
+?>
+
+
+
+really really really baby challenge right?

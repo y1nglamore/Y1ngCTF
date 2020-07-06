@@ -1,0 +1,40 @@
+<?php
+//It's no need to use scanner. Of course if you want, but u will find nothing.
+error_reporting(0);
+include "config.php";
+
+if (isset($_GET['view_source'])) {
+    show_source(__FILE__);
+    die;
+}
+
+function checkCookie($s) {
+    $arr = explode(':', $s);
+    if ($arr[0] === '{"secret"' && preg_match('/^[\"0-9A-Z]*}$/', $arr[1]) && count($arr) === 2 ) {
+        return true;
+    } else {
+        if ( !theFirstTimeSetCookie() ) setcookie('secret', '', time()-1);
+        return false;
+    }
+}
+
+function haveFun($_f_g) {
+    $_g_r = 32;
+    $_m_u = md5($_f_g);
+    $_h_p = strtoupper($_m_u);
+    for ($i = 0; $i < $_g_r; $i++) {
+        $_i = substr($_h_p, $i, 1);
+        $_i = ord($_i);
+        print_r($_i & 0xC0);
+    }
+    die;
+}
+
+isset($_COOKIE['secret']) ? $json = $_COOKIE['secret'] : setcookie('secret', '{"secret":"' . strtoupper(md5('y1ng')) . '"}', time()+7200 );
+checkCookie($json) ? $obj = @json_decode($json, true) : die('no');
+
+if ($obj && isset($_GET['give_me_shell'])) {
+    ($obj['secret'] != $flag_md5 ) ? haveFun($flag) : echo "here is your webshell: $shell_path";
+}
+
+die;

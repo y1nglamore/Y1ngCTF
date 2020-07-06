@@ -1,0 +1,367 @@
+/**
+*qdPM
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Open Software License (OSL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/osl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@qdPM.net so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade qdPM to newer
+* versions in the future. If you wish to customize qdPM for your
+* needs please refer to http://www.qdPM.net for more information.
+*
+* @copyright  Copyright (c) 2009  Sergey Kharchishin and Kym Romanets (http://www.qdpm.net)
+* @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+*/
+
+.navbar-inverse .navbar-brand{
+  color: white;
+  margin-left: 20px;
+}
+
+label.error, div.error { 
+  float: none; 
+  color: #b94a48; 
+  padding-left: 5px; 
+  padding-top: 5px;
+  vertical-align: top;   
+  font-size: 13px;
+}
+input.error, textarea.error{ 
+  border: 1px solid #b94a48; 
+  color: #b94a48; 
+}
+
+.form-control.error:focus{
+  border: 1px solid #b94a48;
+  color: #b94a48;  
+}
+
+.header-inner #navbar-brand-logo{
+  
+} 
+
+.dd-dragel{
+  z-index: 10051;
+}
+
+.dd-empty{
+  min-height: 30px;
+}
+
+.cursor-pointer{
+  cursor:pointer;
+}
+
+.breadcrumb li{
+  vertical-align: middle;
+  padding-right: 5px;  
+  border
+}
+
+.list-group-item.filter-preview-item{
+  padding: 5px 15px;
+}
+
+.modal-scrollable {
+  overflow: auto !important;
+}
+
+
+.table-scrollable .table-attachments{
+
+}
+
+.table-scrollable .table-attachments td{
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.table tfoot td{
+  font-weight: bold;
+}
+
+.filter-preview .panel-heading{
+  padding: 5px 5px;  
+}
+
+#goToMenuContainer {
+  padding-right: 10px;
+}
+
+#goToMenuContainer .yuimenubaritemlabel{
+  padding-right: 0px;
+}
+
+#filtersPreviewMenuBox .yuimenubaritemlabel{
+  font-size: 13px;
+}
+
+#filtersPreviewMenuBox .yuimenuitemlabel, #filtersMenuBox .yuimenuitemlabel{
+  padding: 1px 20px;
+  font-size: 13px
+}
+
+#search_menu .yuimenuitem-selected {	 
+  background-color: #fff;
+}
+
+.alert-search-result{
+  margin-bottom: 0px;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+.filter-preview .fa, #goToMenuContainer .fa{
+  width: auto;
+}
+
+.ui-cluetip-header { 
+  font-size: 14px;   
+}
+
+/*project menu*/
+#projectMenuContainer {border-top: 1px solid #0b679e; margin-bottom: 15px; }
+#projectMenuBox {background: #0b679e; border-top: 1px #0b679e;}
+#projectMenuBox .yuimenubar {   border-left: 1px solid #095786; border-right: 1px solid #0d77b6; border-bottom: 1px solid #0b679e;}
+#projectMenuBox .yuimenubaritemlabel { border-style: solid; border-color: #0d77b6; border-width: 1px 0; color: white; line-height: 2.5}
+#projectMenuBox .yuimenubarnav .yuimenubaritem {border-right: solid 1px #0d77b6;}
+#projectMenuBox .yuimenubaritemlabel-selected { color:#white; background: #084e78; }
+#projectMenuBox .yuimenu .bd {background: #0b679e; border: 1px solid #0d77b6;}
+#projectMenuBox .yuimenu ul {border-color: #0d77b6}
+#projectMenuBox .yuimenuitemlabel {color: white;} 
+#projectMenuBox .yuimenuitemlabel-selected{background:#0d77b6}
+#projectMenuBox .yuimenubaritemlabel-hassubmenu {}
+
+/*projects short info*/
+
+.project-short-info{    
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+}
+
+.project-short-info td{
+  padding-right: 10px;
+  
+}
+
+.user-photo{
+  width: 50px;
+}
+
+
+.header .navbar-nav li.dropdown.user img{
+  border-radius: 0px;
+  max-width: 50px;
+  max-height: 28px;
+  width: auto;  
+}
+
+.header .navbar-nav li.dropdown .dropdown-toggle{
+  height: 45px;
+}
+
+.dropdown-menu li a{
+  padding-right: 15px;
+}
+
+.navbar-nav .open .dropdown-menu > li > a {
+  padding-right: 15px;  
+}
+
+.footer a{
+  color: white;
+}
+
+.item-description-panel{
+  border-bottom: 1px solid #ddd;
+  margin: -15px -15px 15px -15px;
+  padding: 5px 15px;
+}
+
+.table-scrollable .table-item-details-users thead th{
+  font-weight: bold;
+  
+}
+
+
+.table-scrollable .table-item-details tbody td, .table-scrollable .table-item-details tbody th, .table-scrollable .table-item-details-users tbody td{
+  white-space: normal !important;
+}
+
+.form-section{
+  font-size: 16px;
+}
+
+#dashboard-csg-box{
+  padding-bottom: 7px;
+  text-align: right;
+}
+
+div.skinsList { width: 550px;overflow: hidden;}
+div.skinsList ul {list-style: none;padding: 0;float: left;}
+div.skinsList ul li {float: left;text-align: center;padding-top: 10px; }
+
+.datetimepicker{ margin-top: 0px; }
+
+.copyright a {
+  color: white;
+}
+
+.login .logo{
+  font-size: 18px;
+  color: white;
+}
+
+.logo{
+  float: left;
+  width: 150px;
+  text-align: left;
+  padding: 10px 0px 10px 25px;
+}
+
+.logo img{
+  max-width: 150px;
+}
+
+.login-page-logo{
+  margin: 0 auto;
+  margin-top: 60px;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  text-shadow: 1px 1px 3px #000000;
+}
+.login-page-logo img{
+  max-width: 260px;
+}
+
+.page-sidebar-closed .logo{
+  display: none;
+}
+
+
+.loading_data {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 45px;
+  margin-left: -50%;
+  margin-top: -25px;
+  padding-top: 20px;    
+  background: url(img/ajax-loading.gif) center no-repeat;  
+}
+
+
+blockquote p {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.modal-header, .modal-footer{
+  cursor: pointer
+}
+
+
+@media (min-width: 992px) { 
+  /* reduced scale */
+  .page-scale-reduced {
+    font-size: 12px;
+  }
+  
+  .page-scale-reduced .table thead tr th{
+    font-size: 12px;  
+  }
+  
+  .page-scale-reduced .table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td{
+    padding: 5px;
+  }
+  
+  .page-scale-reduced .page-sidebar-menu > li > a{
+    font-size: 13px;
+  }
+  
+  .page-scale-reduced .page-sidebar-menu > li > ul.sub-menu > li > a{
+    font-size: 13px;
+  } 
+  
+  .page-scale-reduced label{
+    font-size: 13px;  
+  }
+  
+  .page-scale-reduced .form-control{
+    font-size: 13px;
+    padding: 4px 12px;
+  }
+  .page-scale-reduced .btn{
+    padding: 4px 12px;
+  }
+  
+  .page-scale-reduced .btn-xs{
+    padding: 1px 5px;
+  }
+    
+  .page-scale-reduced .form-control{
+    height: 30px;
+  }
+  
+  .page-scale-reduced textarea.form-control{
+    height: 82px;
+  }
+  
+  .page-scale-reduced .dropdown-menu{
+    font-size: 13px;
+  } 
+  
+  .page-scale-reduced .navbar-brand{
+    padding: 10px 15px;
+  }
+  
+  .page-scale-reduced .navbar-nav>li>a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .page-scale-reduced .navbar{
+    min-height: 40px;
+  }
+
+  .page-scale-reduced .page-title{
+    font-size: 22px;
+  }
+  
+  .page-scale-reduced .popover-title{
+    font-size: 12px;
+    padding: 4px 14px;
+  }
+  
+  .page-scale-reduced .taskEditRow input{
+    font-size: 13px;
+  }
+  
+  .page-scale-reduced .panel-title{
+    font-size: 14px;
+  } 
+  
+  .page-scale-reduced .alert{
+    padding: 8px;
+  } 
+  
+  .page-scale-reduced .multiple-select-tag{
+    height: 200px;
+  }   
+}  
+
+
+
+
+
