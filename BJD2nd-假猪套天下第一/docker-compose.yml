@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web:
+    restart: always
+    build: .
+    ports:
+      - "20086:80"
+      - "2334:3306"

